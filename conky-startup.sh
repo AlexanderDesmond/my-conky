@@ -1,2 +1,2 @@
 killall conky
-sleep 20s && conky -c "$HOME/.conky/my-conky.conkyrc" &
+sleep 10s && conky -c "$HOME/.conky/my-conky.conkyrc" &
