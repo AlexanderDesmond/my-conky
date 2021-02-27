@@ -83,7 +83,7 @@ conky.config = {
 	--Arch Duoscreen
 	--gap_x = -1910,
 	gap_x = 10,									-- pixels between right or left border
-	gap_y = 160,									-- pixels between bottom or left border
+	gap_y = 250,									-- pixels between bottom or left border
 	minimum_height = 600,						-- minimum height of window
 	minimum_width = 350,						-- minimum height of window
 	maximum_width = 350,						-- maximum height of window
@@ -178,6 +178,14 @@ ${color2}${offset 30}CPU Core 5:${color} ${alignr}${offset -10}${cpu cpu5}%${ali
 ${color2}${offset 30}CPU Core 6:${color} ${alignr}${offset -10}${cpu cpu6}%${alignr}${cpubar cpu6}
 ${color2}${offset 30}CPU Core 7:${color} ${alignr}${offset -10}${cpu cpu7}%${alignr}${cpubar cpu7}
 ${color2}${offset 30}CPU Core 8:${color} ${alignr}${offset -10}${cpu cpu8}%${alignr}${cpubar cpu8}
+${color2}${offset 30}CPU Core 9:${color} ${alignr}${offset -10}${cpu cpu9}%${alignr}${cpubar cpu9}
+${color2}${offset 30}CPU Core 10:${color} ${alignr}${offset -10}${cpu cpu10}%${alignr}${cpubar cpu10}
+${color2}${offset 30}CPU Core 11:${color} ${alignr}${offset -10}${cpu cpu11}%${alignr}${cpubar cpu11}
+${color2}${offset 30}CPU Core 12:${color} ${alignr}${offset -10}${cpu cpu12}%${alignr}${cpubar cpu12}
+${color2}${offset 30}CPU Core 13:${color} ${alignr}${offset -10}${cpu cpu13}%${alignr}${cpubar cpu13}
+${color2}${offset 30}CPU Core 14:${color} ${alignr}${offset -10}${cpu cpu14}%${alignr}${cpubar cpu14}
+${color2}${offset 30}CPU Core 15:${color} ${alignr}${offset -10}${cpu cpu15}%${alignr}${cpubar cpu15}
+${color2}${offset 30}CPU Core 16:${color} ${alignr}${offset -10}${cpu cpu16}%${alignr}${cpubar cpu16}
 ${voffset 8}${color2}Top Processes${goto 222}cpu%${goto 274}mem%${color}
 ${voffset 4}     1  -  ${top name 1}${alignr}${goto 170} ${goto 222}${top cpu 1} ${goto 274}${top mem 1}
      2  -  ${top name 2}${alignr} ${goto 222}${top cpu 2} ${goto 274}${top mem 2}
